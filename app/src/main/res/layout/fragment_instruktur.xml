@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".FragmentInstruktur">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="HALLO INSTRUKTUR"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_width="354dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="300dp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/brown"
+        android:text="Log out"
+        android:textColor="@color/white" />
+
+</FrameLayout>
